@@ -3,20 +3,27 @@
 # C extensions
 *.so
 
+# MS Win
+Thumbs.db
+
+# MacOS
+.DS_Store
+
 # Packages
 *.egg
 *.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
+dist/
+build/
+env/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
 .installed.cfg
-lib
-lib64
+lib/
+lib64/
 
 # Installer logs
 pip-log.txt
@@ -29,14 +36,19 @@ nosetests.xml
 # Translations
 *.mo
 
+# ====== IDEs ======
+
 # Mr Developer
 .mr.developer.cfg
 .project
 .pydevproject
 
-.bmp
-.cpp
-.c
-.h
+# Eclipse
+.settings/
+.project
+.classpath
 
-examples
+# Jetbrain PyCharm
+.idea/
+*.iws
+/bin/
